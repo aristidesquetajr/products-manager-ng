@@ -1,0 +1,29 @@
+nav {
+  position: fixed;
+  left: 0;
+
+  background: #8D73FA;
+  width: 250px;
+  height: 100%;
+
+  ul {
+
+    li {
+      padding: 12px 25px;
+
+      &:nth-child(2){
+        margin-top: 4px;
+      }
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.2);
+      }
+
+      a {
+        display: block;
+        width: 100%;
+        color: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+header {
+  background: #514390;
+  box-shadow: 0 4px 2px #ddd;
+  
+  padding: {
+    block: 10px;
+    left: 25px;
+  }
+
+  height: 60px;
+  
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  
+  a {
+    color: #fff;
+    font-size: 24px;
+  }
+}
