@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Lapis HB",
+      "price": 100.25
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 1500000.75
+    },
+    {
+      "id": 3,
+      "name": "Sansung S20+",
+      "price": 50000.35
+    },
+    {
+      "name": "Freezer",
+      "prince": "450000",
+      "id": 4
+    }
+  ]
+}
