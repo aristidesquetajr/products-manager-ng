@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-rows: 60px calc(100vh - 60px);
+  grid-template-columns: 250px 1fr;
+  column-gap: 10px;
+}
+
+.header {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.nav {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.router {
+  grid-row-start: 3;
+}

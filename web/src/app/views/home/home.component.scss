@@ -1,0 +1,20 @@
+.card {
+  margin-right: 10px;
+  margin-top: 10px;
+
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 2px #ddd;
+  padding: 10px;
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  p {
+    font-size: 1.1rem;
+    margin-top: 4px;
+    color: #3a3939;
+  }
+}
