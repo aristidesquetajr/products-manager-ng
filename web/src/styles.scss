@@ -19,3 +19,18 @@ a {
 .content {
   padding: 10px;
 }
+
+.btn {
+  padding: 14px 18px;
+  background: #ddd;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}
