@@ -34,3 +34,16 @@ a {
     filter: brightness(0.9);
   }
 }
+
+.card {
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 2px #ddd;
+  padding: 10px;
+
+  .title {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+}

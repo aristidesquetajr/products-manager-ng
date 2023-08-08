@@ -1,9 +1,23 @@
 <div class="content">
-  <button class="btn primary" (click)="createProduct()">
-    Save
-  </button>
+  <div class="card">
+    <h2 class="title">New Product</h2>
+    <form>
+      <label>
+        <input type="text">
+        <span>Name</span>
+      </label>
 
-  <button class="btn" (click)="cancel()">
-    Cancel
-  </button>
+      <label>
+        <input type="number">
+        <span>Price</span>
+      </label>
+    </form>
+
+    <button class="btn primary" (click)="createProduct()">
+      Save
+    </button>
+    <button class="btn" (click)="cancel()">
+      Cancel
+    </button>
+  </div>
 </div>

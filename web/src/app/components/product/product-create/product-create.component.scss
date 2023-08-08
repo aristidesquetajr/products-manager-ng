@@ -3,6 +3,36 @@
   color: #fff;
 }
 
-.btn:nth-child(2) {
+form {
+  margin-block: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  label {
+    position: relative;
+
+    input {
+      border: 0;
+      padding-block: 10px;
+      border-bottom: 1px solid #ddd;
+
+      font-size: 16px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    span {
+      position: absolute;
+      top: -5px;
+      left: 0;
+      color: #ddd;
+    }
+  }
+}
+
+.btn + .btn {
   margin-left: 10px;
 }
