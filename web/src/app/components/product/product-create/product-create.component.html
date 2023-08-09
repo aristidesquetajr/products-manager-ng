@@ -3,12 +3,12 @@
     <h2 class="title">New Product</h2>
     <form>
       <label>
-        <input type="text">
+        <input type="text" [(ngModel)]="product.name" name="name">
         <span>Name</span>
       </label>
 
       <label>
-        <input type="number">
+        <input type="number" [(ngModel)]="product.price" name="price">
         <span>Price</span>
       </label>
     </form>
