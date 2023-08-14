@@ -17,7 +17,7 @@
     },
     {
       "name": "Freezer",
-      "prince": "450000",
+      "price": "450000",
       "id": 4
     },
     {
@@ -44,6 +44,11 @@
       "name": "Notebook",
       "price": 1234.5,
       "id": 9
+    },
+    {
+      "name": "Bola",
+      "price": 1233,
+      "id": 10
     }
   ]
 }

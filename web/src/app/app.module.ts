@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -11,6 +11,12 @@ import { ProductCreateComponent } from './components/product/product-create/prod
 
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule  } from '@angular/forms';
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
+
+import locatePtAO from '@angular/common/locales/pt-AO'
+import { registerLocaleData } from '@angular/common';
+
+registerLocaleData(locatePtAO)
 
 @NgModule({
   declarations: [
@@ -19,7 +25,8 @@ import { FormsModule  } from '@angular/forms';
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    ProductCreateComponent
+    ProductCreateComponent,
+    ProductReadComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +34,10 @@ import { FormsModule  } from '@angular/forms';
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [{
+    provide: LOCALE_ID,
+    useValue: 'pt-AO'
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
