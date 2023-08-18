@@ -1,3 +1,8 @@
+.scroll {
+  height: calc(100vh - 150px);
+  overflow: hidden scroll;
+}
+
 table {
   width: 100%;
   border-spacing: 0;
@@ -5,6 +10,7 @@ table {
   box-shadow: 0 2px 2px #ddd;
 
   tr {
+
     &:nth-child(2n) {
       background: #eee;
     }
@@ -23,7 +29,22 @@ table {
         width: 50px;
         text-align: center;
       }
+      
+      &:last-child {
+        width: 200px;
+        text-align: center;
+      }
     }
-    
+  }
+}
+
+.btn {
+  color: #fff;
+  padding-block: 10px;
+  background: #3434e6;
+  
+  + .btn {
+    background: #f83434;
+    margin-left: 8px;
   }
 }
