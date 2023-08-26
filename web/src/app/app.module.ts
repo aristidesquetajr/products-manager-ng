@@ -15,6 +15,7 @@ import { ProductReadComponent } from './components/product/product-read/product-
 
 import locatePtAO from '@angular/common/locales/pt-AO'
 import { registerLocaleData } from '@angular/common';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 
 registerLocaleData(locatePtAO)
 
@@ -26,7 +27,8 @@ registerLocaleData(locatePtAO)
     HomeComponent,
     ProductCrudComponent,
     ProductCreateComponent,
-    ProductReadComponent
+    ProductReadComponent,
+    ProductUpdateComponent
   ],
   imports: [
     BrowserModule,

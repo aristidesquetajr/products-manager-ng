@@ -14,7 +14,8 @@
         <td>{{ product.name }}</td>
         <td>{{ product.price | currency: 'AOA' }}</td>
         <td>
-          <button class="btn">Edite</button>
+          <button class="btn" routerLink="update/{{ product.id }}"> Edite
+          </button>
           <button class="btn">Delete</button>
         </td>
       </tr>
